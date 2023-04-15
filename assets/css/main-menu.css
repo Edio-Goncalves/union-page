@@ -14,13 +14,33 @@
   justify-content: space-between;
   align-items: center;
 }
-.nav ul {
+.nav .menu {
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
 
 .nav .logo,
-.nav ul li a {
+.nav .menu li a {
   padding: 10px;
   background-color: azure;
+}
+
+.btn-mobile {
+  display: none;
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  border: none;
+  padding: 7px 10px;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 950px) {
+  .nav .menu {
+    display: none;
+    background-color: blue;
+  }
+  .btn-mobile {
+    display: flex;
+  }
 }
