@@ -27,12 +27,31 @@
 
 .btn-mobile {
   display: none;
+  align-items: center;
+  gap: 10px;
   position: absolute;
   right: 10px;
   cursor: pointer;
   border: none;
   padding: 7px 10px;
   font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+.hamburger {
+  color: red;
+  display: block;
+  border-top: 2px solid;
+  width: 20px;
+}
+.hamburger::before,
+.hamburger::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: currentColor;
+  margin-top: 5px;
+  transition: 0.3s;
 }
 
 @media screen and (max-width: 950px) {
@@ -42,5 +61,16 @@
   }
   .btn-mobile {
     display: flex;
+  }
+  .nav.active .hamburger {
+    border-top-color: transparent;
+  }
+  .nav.active .hamburger::before {
+    transform: rotate(135deg);
+  }
+  .nav.active .hamburger::after {
+    position: relative;
+    transform: rotate(-135deg);
+    top: -7px;
   }
 }
