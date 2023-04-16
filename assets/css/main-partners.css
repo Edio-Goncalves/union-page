@@ -1,0 +1,23 @@
+.main-partner {
+  background-color: aqua;
+}
+
+#grid-partners {
+  width: 1200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+}
+#grid-partners h3 {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  height: 30px;
+}
+
+#grid-partners img {
+  width: 100%;
+  height: 200px;
+}
