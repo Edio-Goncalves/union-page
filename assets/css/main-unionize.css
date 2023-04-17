@@ -1,0 +1,40 @@
+.main-unionize {
+  width: 100%;
+  background-color: aquamarine;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.main-unionize .container {
+  width: 1200px;
+  margin: auto;
+}
+.main-unionize .container .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-unionize .container .content h1 {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.before-circle::before {
+  content: "";
+  background-image: url(/assets/img/question.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+}
+.before-circle::after {
+  content: "";
+  margin-right: 15px;
+}
+
+.before-circle.exclamation::before {
+  background-image: url(/assets/img/exclamation.png);
+}
