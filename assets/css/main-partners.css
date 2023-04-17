@@ -1,5 +1,6 @@
-.main-partner {
-  background-color: aqua;
+.main-partners {
+  margin-top: 50px;
+  background-color: rgba(240, 240, 240, 0.3);
 }
 
 #grid-partners {
@@ -12,9 +13,14 @@
   gap: 10px;
 }
 #grid-partners h3 {
+  padding: 10px 20px;
+  background-color: rgb(161, 255, 79);
+  font-size: 2rem;
+  font-weight: 700;
   grid-column-start: 1;
   grid-column-end: 7;
   height: 30px;
+  margin-right: auto;
 }
 
 #grid-partners img {
