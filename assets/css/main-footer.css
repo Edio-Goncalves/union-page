@@ -1,6 +1,5 @@
 .main-footer {
-  background-color: aquamarine;
-  border-top: 2px solid black;
+  border-top: 2px solid rgb(235, 54, 54);
   width: 100%;
   padding-top: 50px;
 }
@@ -11,13 +10,38 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: red;
+  line-height: 1.2;
 }
 
-.copyright {
+.main-footer .footer-wrapper h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.main-footer .footer-wrapper h2 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.main-footer .footer-wrapper ul {
+  margin-top: 50px;
+}
+.main-footer .footer-wrapper ul li {
+  line-height: 1.5;
+}
+
+.main-footer .footer-wrapper .footer-media {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+}
+
+.main-footer .footer-wrapper .footer-media a img {
+  width: 40px;
+}
+
+.main-footer .footer-wrapper .copyright {
   box-sizing: border-box;
   padding: 20px;
   width: 100%;
   text-align: center;
-  background-color: aqua;
 }
