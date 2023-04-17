@@ -1,0 +1,23 @@
+.main-footer {
+  background-color: aquamarine;
+  border-top: 2px solid black;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.main-footer .footer-wrapper {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: red;
+}
+
+.copyright {
+  box-sizing: border-box;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  background-color: aqua;
+}
