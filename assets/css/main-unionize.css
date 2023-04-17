@@ -27,6 +27,13 @@
   width: 100%;
   padding: 5rem 0rem 2rem 0rem;
 }
+.main-unionize .container .content h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-top: 50px;
+  padding: 10px;
+  background-color: rgb(161, 255, 79);
+}
 .main-unionize .container .content h1::after,
 .main-unionize .container .content h1::before {
   content: "";
