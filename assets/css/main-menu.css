@@ -5,16 +5,16 @@
   height: 80px;
   display: flex;
   justify-content: center;
-  background-color: rgba(255, 50, 50, 0.614);
   z-index: 2;
 }
 .nav {
   max-width: 1200px;
   width: 100%;
   display: flex;
-  background-color: rgb(138, 138, 138);
   justify-content: space-between;
   align-items: center;
+  background-color: white;
+  border-bottom: 3px solid rgb(238, 57, 57);
 }
 .nav .menu {
   display: flex;
@@ -23,8 +23,10 @@
 
 .nav .logo,
 .nav .menu li a {
+  font-weight: 700;
   padding: 10px;
-  background-color: azure;
+  /* background-color: rgb(225, 225, 225); */
+  color: rgb(43, 43, 43);
 }
 
 .btn-mobile {
