@@ -5,14 +5,14 @@
   height: 80px;
   display: flex;
   justify-content: center;
-  background-color: red;
+  background-color: rgba(255, 50, 50, 0.614);
   z-index: 2;
 }
 .nav {
   max-width: 1200px;
   width: 100%;
   display: flex;
-  background-color: aqua;
+  background-color: rgb(138, 138, 138);
   justify-content: space-between;
   align-items: center;
 }
