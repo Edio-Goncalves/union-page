@@ -1,6 +1,6 @@
 .main-slide {
-  height: 500px;
-  margin-top: 100px;
+  height: 460px;
+  margin-top: 90px;
 }
 .main-slide .slide-wrapper {
   max-width: 1200px;
@@ -15,6 +15,7 @@
   grid-template-rows: 7% auto;
 }
 .destaque h1 {
+  font-family: "Oswald", sans-serif;
   font-size: 1.4rem;
   font-weight: 700;
   padding-bottom: 5px;
@@ -34,11 +35,9 @@
   background-repeat: no-repeat;
   box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.05);
 }
-.destaque .container .destaque-content {
-  display: flex;
-  flex-direction: column;
-}
+
 .destaque .container h2 {
+  font-family: "Oswald", sans-serif;
   margin-top: 10px;
   font-size: 1.3rem;
 }
@@ -55,12 +54,40 @@
     rgba(105, 105, 105, 0) 90%
   );
 }
-.destaque .container p {
+.destaque .container .destaque-content {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+.destaque .container .destaque-content p {
   margin-top: 10px;
-  font-size: 1.1rem;
+  font-family: "Open Sans", sans-serif;
+  color: #3e3e3e;
+  font-size: 15px;
+  line-height: 1.5;
   font-weight: 300;
+  padding: 0px 5px;
+}
+.destaque .container .destaque-content .btn-more {
+  color: #343434;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 45px;
+  bottom: 0;
+  border-bottom: 1px solid #c0c0c0;
+  padding-bottom: 4px;
+  background: linear-gradient(0deg, #dedede 35%, #ebebeb1b);
 }
 
+/* slide */
 .slide {
   box-sizing: border-box;
   max-width: 760px;
