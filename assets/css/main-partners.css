@@ -1,16 +1,17 @@
 .main-partners {
-  margin-top: 50px;
-  background-color: rgba(240, 240, 240, 0.3);
+  /* margin-top: 50px; */
+  background-color: rgba(240, 240, 240, 0.351);
 }
 
 #grid-partners {
   width: 1200px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 10px;
+  border-bottom: 2px solid black;
 }
 #grid-partners h3 {
   padding: 10px 20px;
