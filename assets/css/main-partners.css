@@ -14,7 +14,8 @@
 }
 #grid-partners h3 {
   padding: 10px 20px;
-  background-color: rgb(161, 255, 79);
+  background-color: rgb(98, 98, 98);
+  color: white;
   font-size: 2rem;
   font-weight: 700;
   grid-column-start: 1;
