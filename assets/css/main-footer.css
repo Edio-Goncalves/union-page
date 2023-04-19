@@ -1,7 +1,8 @@
 .main-footer {
-  border-top: 2px solid rgb(235, 54, 54);
   width: 100%;
   padding-top: 50px;
+  background-color: rgb(154, 62, 62);
+  color: white;
 }
 
 .main-footer .footer-wrapper {
